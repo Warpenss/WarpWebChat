@@ -226,7 +226,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
+  color: #616161;
   background-color: #ffffff;
 }
 
@@ -1042,8 +1042,11 @@ legend {
   font-size: 21px;
   line-height: 40px;
   color: #333333;
-  border: 0;
-  border-bottom: 1px solid #e5e5e5;
+  border: 1px solid #dddddd;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 legend small {
@@ -1096,7 +1099,7 @@ input[type="color"],
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 20px;
-  color: #555555;
+  color: #999999;
   vertical-align: middle;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
@@ -3292,9 +3295,9 @@ button.close {
 .btn-large {
   padding: 11px 19px;
   font-size: 17.5px;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
 }
 
 .btn-large [class^="icon-"],
@@ -3360,15 +3363,15 @@ input[type="button"].btn-block {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #006dcc;
-  *background-color: #0044cc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-color: #7D7D7D;
+  *background-color: #7D7D7D;
+  background-image: -moz-linear-gradient(top, #7D7D7D, #7D7D7D);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7D7D7D), to(#7D7D7D));
+  background-image: -webkit-linear-gradient(top, #7D7D7D, #7D7D7D);
+  background-image: -o-linear-gradient(top, #7D7D7D, #7D7D7D);
+  background-image: linear-gradient(to bottom, #7D7D7D, #7D7D7D);
   background-repeat: repeat-x;
-  border-color: #0044cc #0044cc #002a80;
+  border-color: #7D7D7D #7D7D7D #7D7D7D;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
@@ -3381,8 +3384,8 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #0044cc;
-  *background-color: #003bb3;
+  background-color: #737373;
+  *background-color: #7D7D7D;
 }
 
 .btn-primary:active,
@@ -3879,14 +3882,14 @@ input[type="submit"].btn.btn-mini {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px;
 }
 
 .alert,
 .alert h4 {
-  color: #c09853;
+  color: #bec0bc;
 }
 
 .alert h4 {
@@ -3901,9 +3904,9 @@ input[type="submit"].btn.btn-mini {
 }
 
 .alert-success {
-  color: #468847;
-  background-color: #dff0d8;
-  border-color: #d6e9c6;
+  color: #7D7D7D;
+  background-color: #fdfdfd;
+  border-color: #fdfdfd;
 }
 
 .alert-success h4 {
@@ -5635,11 +5638,11 @@ a.thumbnail:focus {
   font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
-  color: #ffffff;
+  color: #373734;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   white-space: nowrap;
   vertical-align: baseline;
-  background-color: #999999;
+  background-color: #ded7d2;
 }
 
 .label {
@@ -5702,7 +5705,7 @@ a.badge:focus {
 
 .label-info,
 .badge-info {
-  background-color: #3a87ad;
+  background-color: #cbc5c0;
 }
 
 .label-info[href],
